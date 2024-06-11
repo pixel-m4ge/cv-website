@@ -31,8 +31,8 @@
       <v-tabs-window-item key="2" value="tab-2">
         <v-container>
           <v-row>
-            <v-col cols="2"></v-col>
-            <v-col cols="8">
+            <v-col sm="2" cols="0"></v-col>
+            <v-col sm="8" cols="12">
               <v-card
                 variant="flat"
                 class="bg-indigo-lighten-5"
@@ -41,28 +41,28 @@
                 <v-card-text>...</v-card-text>
               </v-card>
             </v-col>
-            <v-col cols="2"></v-col>
+            <v-col sm="2" cols="0"></v-col>
           </v-row>
         </v-container>
       </v-tabs-window-item>
       <v-tabs-window-item key="3" value="tab-3">
         <v-container>
           <v-row>
-            <v-col cols="2"></v-col>
-            <v-col cols="8">
+            <v-col sm="2" cols="0"></v-col>
+            <v-col sm="8" cols="12">
               <v-card variant="flat" class="bg-indigo-lighten-5" title="Awards">
                 <v-card-text>...</v-card-text>
               </v-card>
             </v-col>
-            <v-col cols="2"></v-col>
+            <v-col sm="2" cols="0"></v-col>
           </v-row>
         </v-container>
       </v-tabs-window-item>
       <v-tabs-window-item key="4" value="tab-4">
         <v-container>
           <v-row>
-            <v-col cols="2"></v-col>
-            <v-col cols="8">
+            <v-col sm="2" cols="0"></v-col>
+            <v-col sm="8" cols="12">
               <v-card
                 variant="flat"
                 class="bg-indigo-lighten-5"
@@ -71,7 +71,7 @@
                 <v-card-text>...</v-card-text>
               </v-card>
             </v-col>
-            <v-col cols="2"></v-col>
+            <v-col sm="2" cols="0"></v-col>
           </v-row>
         </v-container>
       </v-tabs-window-item>
