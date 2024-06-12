@@ -33,13 +33,18 @@
                   <span class="text-body-1">Software Developer</span>
                 </template>
                 <v-card-text>
-                  I have 4+ years of full-stack development experience,
-                  specialising in front-end web development. My dissertation
-                  focused on web accessibility, underlining my dedication to
-                  inclusive web design. I placed third in a competitive UK
-                  coding tournament, demonstrating my proficiency in secure
-                  coding practices. I utilise my creative background to inform
-                  and enhance my development work.
+                  <div>
+                    I have 4+ years of full-stack development experience,
+                    specialising in front-end web development. My dissertation
+                    focused on web accessibility, underlining my dedication to
+                    inclusive web design.
+                  </div>
+                  <div class="pt-2">
+                    I placed third in a competitive UK coding tournament,
+                    demonstrating my proficiency in secure coding practices. I
+                    utilise my creative background to inform and enhance my
+                    development work.
+                  </div>
                 </v-card-text>
                 <v-card-text class="pt-0">
                   <div class="bg-indigo-lighten-4" style="border-radius: 4px">
@@ -129,6 +134,7 @@
                         color="grey-darken-4"
                         label
                         class="mr-2 mt-2"
+                        append-icon="mdi-code-tags"
                         >HTML</v-chip
                       >
                       <v-chip
@@ -136,6 +142,7 @@
                         color="grey-darken-4"
                         label
                         class="mr-2 mt-2"
+                        append-icon="mdi-code-braces"
                         >CSS</v-chip
                       >
                       <v-chip
@@ -143,6 +150,7 @@
                         color="grey-darken-4"
                         label
                         class="mr-2 mt-2"
+                        append-icon="mdi-language-javascript"
                         >JavaScript</v-chip
                       >
                       <v-chip
@@ -150,6 +158,7 @@
                         color="grey-darken-4"
                         label
                         class="mr-2 mt-2"
+                        append-icon="mdi-code-parentheses"
                         >C#</v-chip
                       >
                       <v-chip
@@ -157,6 +166,7 @@
                         color="grey-darken-4"
                         label
                         class="mr-2 mt-2"
+                        append-icon="mdi-database"
                         >SQL</v-chip
                       >
                     </div>
@@ -171,6 +181,7 @@
                         color="grey-darken-4"
                         label
                         class="mr-2 mt-2"
+                        append-icon="mdi-vuejs"
                         >Vue</v-chip
                       >
                       <v-chip
@@ -178,6 +189,7 @@
                         color="grey-darken-4"
                         label
                         class="mr-2 mt-2"
+                        append-icon="mdi-nuxt"
                         >Nuxt</v-chip
                       >
                       <v-chip
@@ -185,6 +197,7 @@
                         color="grey-darken-4"
                         label
                         class="mr-2 mt-2"
+                        append-icon="mdi-vuetify"
                         >Vuetify</v-chip
                       >
                       <v-chip
@@ -192,6 +205,7 @@
                         color="grey-darken-4"
                         label
                         class="mr-2 mt-2"
+                        append-icon="mdi-microsoft-azure-devops"
                         >Azure DevOps</v-chip
                       >
                       <v-chip
@@ -199,6 +213,7 @@
                         color="grey-darken-4"
                         label
                         class="mr-2 mt-2"
+                        append-icon="mdi-github"
                         >GitHub</v-chip
                       >
                       <v-chip
@@ -206,6 +221,7 @@
                         color="grey-darken-4"
                         label
                         class="mr-2 mt-2"
+                        append-icon="mdi-code-brackets"
                         >.NET</v-chip
                       >
                       <v-chip
@@ -213,6 +229,7 @@
                         color="grey-darken-4"
                         label
                         class="mr-2 mt-2"
+                        append-icon="mdi-cloud-braces"
                         >REST APIs</v-chip
                       >
                     </div>
