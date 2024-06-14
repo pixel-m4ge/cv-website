@@ -1,21 +1,45 @@
 <template>
   <v-card class="rounded-0 h-100">
     <v-tabs v-model="tab" align-tabs="center" bg-color="indigo">
-      <v-tab class="text-capitalize" prepend-icon="mdi-home" value="tab-1"
-        >Summary</v-tab
-      >
+      <v-tab class="text-capitalize" value="tab-1">
+        <template v-slot:prepend>
+          <v-icon
+            icon="mdi-home"
+            :class="{ 'ml-3': $vuetify.display.xs }"
+          ></v-icon>
+        </template>
+        <span class="d-none d-sm-block">Summary</span>
+      </v-tab>
 
-      <v-tab class="text-capitalize" prepend-icon="mdi-briefcase" value="tab-2"
-        >Experience</v-tab
-      >
+      <v-tab class="text-capitalize" value="tab-2">
+        <template v-slot:prepend>
+          <v-icon
+            icon="mdi-briefcase"
+            :class="{ 'ml-3': $vuetify.display.xs }"
+          ></v-icon>
+        </template>
+        <span class="d-none d-sm-block">Experience</span>
+      </v-tab>
 
-      <v-tab class="text-capitalize" prepend-icon="mdi-medal" value="tab-3"
-        >Awards</v-tab
-      >
+      <v-tab class="text-capitalize" value="tab-3">
+        <template v-slot:prepend>
+          <v-icon
+            icon="mdi-medal"
+            :class="{ 'ml-3': $vuetify.display.xs }"
+          ></v-icon>
+        </template>
+        <span class="d-none d-sm-block">Awards</span>
+      </v-tab>
 
-      <v-tab class="text-capitalize" prepend-icon="mdi-school" value="tab-4"
-        >Education</v-tab
-      >
+      <v-tab class="text-capitalize" value="tab-4">
+        <template v-slot:prepend>
+          <v-icon
+            icon="mdi-school"
+            :class="{ 'ml-3': $vuetify.display.xs }"
+          ></v-icon>
+        </template>
+        <span class="d-none d-sm-block">Education</span>
+      </v-tab>
     </v-tabs>
 
     <v-tabs-window v-model="tab">
