@@ -288,7 +288,109 @@
             <v-col sm="2" cols="0"></v-col>
             <v-col sm="8" cols="12">
               <v-card variant="flat" class="bg-indigo-lighten-5" title="Awards">
-                <v-card-text>...</v-card-text>
+                <v-card-text>
+                  <v-expansion-panels variant="accordion" flat multiple>
+                    <v-expansion-panel class="bg-indigo-lighten-4">
+                      <v-expansion-panel-title>
+                        <v-icon icon="mdi-security" />
+                        <span class="pl-6 text-body-1">
+                          4 Nations Secure Code Warrior Tournament
+                        </span>
+                      </v-expansion-panel-title>
+                      <v-expansion-panel-text>
+                        <div class="font-weight-bold">QA</div>
+                        <div class="pt-2">
+                          I competed against other participants in a series of
+                          vulnerable code challenges, where I identified
+                          problems, located weaknesses, and fixed
+                          vulnerabilities.
+                        </div>
+                        <div class="pt-2">
+                          In the knockout stage, I was one of the
+                          highest-ranking competitors in Wales. I was then
+                          invited to compete in the national final, where I
+                          placed 3rd in the UK.
+                        </div>
+                      </v-expansion-panel-text>
+                    </v-expansion-panel>
+
+                    <v-expansion-panel class="bg-indigo-lighten-4">
+                      <v-expansion-panel-title>
+                        <v-icon icon="mdi-camera" />
+                        <span class="pl-6 text-body-1">
+                          Slim Hewitt Prize
+                        </span>
+                      </v-expansion-panel-title>
+                      <v-expansion-panel-text>
+                        <div class="font-weight-bold">
+                          University of Gloucestershire
+                        </div>
+                        <div class="pt-2">
+                          The prize is awarded to the graduating Photojournalism
+                          and Documentary Photography student achieving the
+                          highest mark total for their level 6 modules.
+                        </div>
+                      </v-expansion-panel-text>
+                    </v-expansion-panel>
+
+                    <v-expansion-panel class="bg-indigo-lighten-4">
+                      <v-expansion-panel-title>
+                        <v-icon icon="mdi-camera-iris" />
+                        <span class="pl-6 text-body-1">
+                          Canon Student Development Programme
+                        </span>
+                      </v-expansion-panel-title>
+                      <v-expansion-panel-text>
+                        <div class="font-weight-bold">
+                          Visa Pour L'Image 2018
+                        </div>
+                        <div class="pt-2">
+                          I attended workshops from acclaimed Canon Ambassadors
+                          and industry experts, and networked with other
+                          upcoming photographers.
+                        </div>
+                      </v-expansion-panel-text>
+                    </v-expansion-panel>
+
+                    <v-expansion-panel class="bg-indigo-lighten-4">
+                      <v-expansion-panel-title>
+                        <v-icon icon="mdi-hand-heart" />
+                        <span class="pl-6 text-body-1">
+                          Future Plan Volunteer of The Year
+                        </span>
+                      </v-expansion-panel-title>
+                      <v-expansion-panel-text>
+                        <div class="font-weight-bold">
+                          SU Student Awards 2018
+                        </div>
+                        <div class="pt-2">
+                          I was nominated for this award by the Volunteer
+                          Coordinator at The Cheltenham Trust, for my volunteer
+                          work at The Wilson Art Gallery and Museum.
+                        </div>
+                      </v-expansion-panel-text>
+                    </v-expansion-panel>
+
+                    <v-expansion-panel class="bg-indigo-lighten-4">
+                      <v-expansion-panel-title>
+                        <v-icon icon="mdi-trophy-variant" />
+                        <span class="pl-6 text-body-1">
+                          Gold, Silver & Bronze Employability Award
+                        </span>
+                      </v-expansion-panel-title>
+                      <v-expansion-panel-text>
+                        <div class="font-weight-bold">
+                          University of Gloucestershire
+                        </div>
+                        <div class="pt-2">
+                          The three levels require 100 hours of work experience,
+                          4 employability workshops, 2 mock interviews, and a
+                          formal presentation.
+                        </div>
+                      </v-expansion-panel-text>
+                    </v-expansion-panel>
+                  </v-expansion-panels>
+                </v-card-text>
               </v-card>
             </v-col>
             <v-col sm="2" cols="0"></v-col>
