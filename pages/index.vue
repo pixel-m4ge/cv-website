@@ -407,7 +407,77 @@
                 class="bg-indigo-lighten-5"
                 title="Education"
               >
-                <v-card-text>...</v-card-text>
+                <v-card-text>
+                  <v-expansion-panels variant="accordion" flat multiple>
+                    <v-expansion-panel class="bg-indigo-lighten-4">
+                      <v-expansion-panel-title>
+                        <v-icon icon="mdi-school" />
+                        <span class="pl-6 text-body-1">
+                          BSc (Hons) Digital and Technology Solutions
+                        </span>
+                      </v-expansion-panel-title>
+                      <v-expansion-panel-text>
+                        <div class="font-weight-bold">
+                          University of South Wales
+                        </div>
+                        <div>2019 - 2024</div>
+                        <div class="pt-2">
+                          Predicted to graduate with a First Class
+                        </div>
+                      </v-expansion-panel-text>
+                    </v-expansion-panel>
+
+                    <v-expansion-panel class="bg-indigo-lighten-4">
+                      <v-expansion-panel-title>
+                        <v-icon icon="mdi-school" />
+                        <span class="pl-6 text-body-1">
+                          BA (Hons) Photojournalism and Documentary Photography
+                        </span>
+                      </v-expansion-panel-title>
+                      <v-expansion-panel-text>
+                        <div class="font-weight-bold">
+                          University of Gloucestershire
+                        </div>
+                        <div>2016 - 2019</div>
+                        <div class="pt-2">Graduated with a First Class</div>
+                      </v-expansion-panel-text>
+                    </v-expansion-panel>
+
+                    <v-expansion-panel class="bg-indigo-lighten-4">
+                      <v-expansion-panel-title>
+                        <v-icon icon="mdi-certificate" />
+                        <span class="pl-6 text-body-1"> A Levels </span>
+                      </v-expansion-panel-title>
+                      <v-expansion-panel-text>
+                        <div class="font-weight-bold">
+                          St David's Catholic College
+                        </div>
+                        <div>2014 - 2016</div>
+                        <div class="pt-2">
+                          Photography (B), Film Studies (A*), Business Studies
+                          (B)
+                        </div>
+                      </v-expansion-panel-text>
+                    </v-expansion-panel>
+
+                    <v-expansion-panel class="bg-indigo-lighten-4">
+                      <v-expansion-panel-title>
+                        <v-icon icon="mdi-certificate" />
+                        <span class="pl-6 text-body-1"> GCSEs </span>
+                      </v-expansion-panel-title>
+                      <v-expansion-panel-text>
+                        <div class="font-weight-bold">
+                          Bryn Hafren Comprehensive School
+                        </div>
+                        <div>2008 - 2013</div>
+                        <div class="pt-2">
+                          9 GCSEs Grade A-B including Maths and English (4 As, 5
+                          Bs)
+                        </div>
+                      </v-expansion-panel-text>
+                    </v-expansion-panel>
+                  </v-expansion-panels>
+                </v-card-text>
               </v-card>
             </v-col>
             <v-col sm="2" cols="0"></v-col>
