@@ -57,6 +57,28 @@
                   <span class="text-body-1">Software Developer</span>
                 </template>
                 <v-card-text>
+                  <span class="mr-4">
+                    <a
+                      href="https://www.linkedin.com/in/zoecurry/"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      aria-label="Go to my LinkedIn profile"
+                    >
+                      <v-icon color="black" icon="mdi-linkedin"></v-icon>
+                    </a>
+                  </span>
+                  <span>
+                    <a
+                      href="https://github.com/pixel-m4ge/"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      aria-label="Go to my GitHub profile"
+                    >
+                      <v-icon color="black" icon="mdi-github"></v-icon>
+                    </a>
+                  </span>
+                </v-card-text>
+                <v-card-text class="pt-0">
                   <div>
                     I have 4+ years of full-stack development experience,
                     specialising in front-end web development. My dissertation
