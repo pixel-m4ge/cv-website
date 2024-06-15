@@ -93,7 +93,7 @@
                   </div>
                 </v-card-text>
                 <v-card-text class="pt-0">
-                  <div class="bg-indigo-lighten-4" style="border-radius: 4px">
+                  <div class="bg-indigo-lighten-4 rounded">
                     <div class="pa-4">
                       <div>Projects</div>
                       <v-chip
@@ -172,7 +172,7 @@
                   </div>
                 </v-card-text>
                 <v-card-text class="pt-0">
-                  <div class="bg-indigo-lighten-4" style="border-radius: 4px">
+                  <div class="bg-indigo-lighten-4 rounded">
                     <div class="pa-4">
                       <div>Languages</div>
                       <v-chip
@@ -219,7 +219,7 @@
                   </div>
                 </v-card-text>
                 <v-card-text class="pt-0">
-                  <div class="bg-indigo-lighten-4" style="border-radius: 4px">
+                  <div class="bg-indigo-lighten-4 rounded">
                     <div class="pa-4">
                       <div>Technologies</div>
                       <v-chip
@@ -282,7 +282,7 @@
                   </div>
                 </v-card-text>
                 <v-card-text class="pt-0">
-                  <div class="bg-indigo-lighten-4" style="border-radius: 4px">
+                  <div class="bg-indigo-lighten-4 rounded">
                     <div class="pa-4">
                       <div>Certifications</div>
                       <v-chip
