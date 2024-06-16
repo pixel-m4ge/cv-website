@@ -347,12 +347,7 @@
             <v-col sm="8" cols="12">
               <v-card variant="flat" class="bg-grey-darken-3" title="Awards">
                 <v-card-text>
-                  <v-expansion-panels
-                    class="bg-salmon"
-                    variant="accordion"
-                    flat
-                    multiple
-                  >
+                  <v-expansion-panels variant="accordion" flat multiple>
                     <v-expansion-panel class="bg-salmon">
                       <v-expansion-panel-title class="text-black">
                         <v-icon icon="mdi-security" />
@@ -467,12 +462,7 @@
             <v-col sm="8" cols="12">
               <v-card variant="flat" class="bg-grey-darken-3" title="Education">
                 <v-card-text>
-                  <v-expansion-panels
-                    class="bg-salmon"
-                    variant="accordion"
-                    flat
-                    multiple
-                  >
+                  <v-expansion-panels variant="accordion" flat multiple>
                     <v-expansion-panel class="bg-salmon">
                       <v-expansion-panel-title class="text-black">
                         <v-icon icon="mdi-school" />
