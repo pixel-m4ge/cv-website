@@ -1,6 +1,6 @@
 <template>
   <v-card class="rounded-0 h-100">
-    <v-container class="py-0">
+    <v-container class="py-0" :class="{ 'px-0': $vuetify.display.xs }">
       <v-row>
         <v-col sm="2" cols="0" class="d-none d-sm-block"></v-col>
         <v-col sm="8" cols="12">
