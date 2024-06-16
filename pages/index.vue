@@ -1,52 +1,66 @@
 <template>
   <v-card class="rounded-0 h-100">
-    <v-tabs v-model="tab" align-tabs="center" bg-color="indigo">
-      <v-tab class="text-capitalize" value="tab-1">
-        <template v-slot:prepend>
-          <v-icon
-            icon="mdi-home"
-            :class="{ 'ml-3': $vuetify.display.xs }"
-          ></v-icon>
-        </template>
-        <span class="d-none d-sm-block">Summary</span>
-      </v-tab>
+    <v-container class="py-0">
+      <v-row>
+        <v-col sm="2" cols="0" class="d-none d-sm-block"></v-col>
+        <v-col sm="8" cols="12">
+          <v-tabs
+            v-model="tab"
+            align-tabs="center"
+            bg-color="grey-darken-4"
+            height="60"
+            grow
+          >
+            <v-tab class="text-capitalize" value="tab-1">
+              <template v-slot:prepend>
+                <v-icon
+                  icon="mdi-home"
+                  :class="{ 'ml-3': $vuetify.display.xs }"
+                ></v-icon>
+              </template>
+              <span class="d-none d-sm-block">Summary</span>
+            </v-tab>
 
-      <v-tab class="text-capitalize" value="tab-2">
-        <template v-slot:prepend>
-          <v-icon
-            icon="mdi-briefcase"
-            :class="{ 'ml-3': $vuetify.display.xs }"
-          ></v-icon>
-        </template>
-        <span class="d-none d-sm-block">Experience</span>
-      </v-tab>
+            <v-tab class="text-capitalize" value="tab-2">
+              <template v-slot:prepend>
+                <v-icon
+                  icon="mdi-briefcase"
+                  :class="{ 'ml-3': $vuetify.display.xs }"
+                ></v-icon>
+              </template>
+              <span class="d-none d-sm-block">Experience</span>
+            </v-tab>
 
-      <v-tab class="text-capitalize" value="tab-3">
-        <template v-slot:prepend>
-          <v-icon
-            icon="mdi-medal"
-            :class="{ 'ml-3': $vuetify.display.xs }"
-          ></v-icon>
-        </template>
-        <span class="d-none d-sm-block">Awards</span>
-      </v-tab>
+            <v-tab class="text-capitalize" value="tab-3">
+              <template v-slot:prepend>
+                <v-icon
+                  icon="mdi-medal"
+                  :class="{ 'ml-3': $vuetify.display.xs }"
+                ></v-icon>
+              </template>
+              <span class="d-none d-sm-block">Awards</span>
+            </v-tab>
 
-      <v-tab class="text-capitalize" value="tab-4">
-        <template v-slot:prepend>
-          <v-icon
-            icon="mdi-school"
-            :class="{ 'ml-3': $vuetify.display.xs }"
-          ></v-icon>
-        </template>
-        <span class="d-none d-sm-block">Education</span>
-      </v-tab>
-    </v-tabs>
+            <v-tab class="text-capitalize" value="tab-4">
+              <template v-slot:prepend>
+                <v-icon
+                  icon="mdi-school"
+                  :class="{ 'ml-3': $vuetify.display.xs }"
+                ></v-icon>
+              </template>
+              <span class="d-none d-sm-block">Education</span>
+            </v-tab>
+          </v-tabs>
+        </v-col>
+        <v-col sm="2" cols="0" class="d-none d-sm-block"></v-col>
+      </v-row>
+    </v-container>
 
     <v-tabs-window v-model="tab">
       <v-tabs-window-item key="1" value="tab-1">
         <v-container>
           <v-row>
-            <v-col sm="2" cols="0"></v-col>
+            <v-col sm="2" cols="0" class="d-none d-sm-block"></v-col>
             <v-col sm="8" cols="12">
               <v-card
                 variant="flat"
@@ -118,14 +132,14 @@
                 </v-card-text>
               </v-card>
             </v-col>
-            <v-col sm="2" cols="0"></v-col>
+            <v-col sm="2" cols="0" class="d-none d-sm-block"></v-col>
           </v-row>
         </v-container>
       </v-tabs-window-item>
       <v-tabs-window-item key="2" value="tab-2">
         <v-container>
           <v-row>
-            <v-col sm="2" cols="0"></v-col>
+            <v-col sm="2" cols="0" class="d-none d-sm-block"></v-col>
             <v-col sm="8" cols="12">
               <v-card
                 variant="flat"
@@ -324,14 +338,14 @@
                 </v-card-text>
               </v-card>
             </v-col>
-            <v-col sm="2" cols="0"></v-col>
+            <v-col sm="2" cols="0" class="d-none d-sm-block"></v-col>
           </v-row>
         </v-container>
       </v-tabs-window-item>
       <v-tabs-window-item key="3" value="tab-3">
         <v-container>
           <v-row>
-            <v-col sm="2" cols="0"></v-col>
+            <v-col sm="2" cols="0" class="d-none d-sm-block"></v-col>
             <v-col sm="8" cols="12">
               <v-card variant="flat" class="bg-indigo-lighten-5" title="Awards">
                 <v-card-text>
@@ -439,14 +453,14 @@
                 </v-card-text>
               </v-card>
             </v-col>
-            <v-col sm="2" cols="0"></v-col>
+            <v-col sm="2" cols="0" class="d-none d-sm-block"></v-col>
           </v-row>
         </v-container>
       </v-tabs-window-item>
       <v-tabs-window-item key="4" value="tab-4">
         <v-container>
           <v-row>
-            <v-col sm="2" cols="0"></v-col>
+            <v-col sm="2" cols="0" class="d-none d-sm-block"></v-col>
             <v-col sm="8" cols="12">
               <v-card
                 variant="flat"
@@ -526,7 +540,7 @@
                 </v-card-text>
               </v-card>
             </v-col>
-            <v-col sm="2" cols="0"></v-col>
+            <v-col sm="2" cols="0" class="d-none d-sm-block"></v-col>
           </v-row>
         </v-container>
       </v-tabs-window-item>
