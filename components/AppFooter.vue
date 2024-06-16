@@ -2,7 +2,7 @@
   <v-footer class="pa-0">
     <v-row no-gutters>
       <v-col>
-        <div class="px-4 py-2 w-100 bg-honeydew text-center">
+        <div class="px-4 py-2 w-100 bg-salmon text-center">
           <span class="mx-4">
             <a
               href="https://www.linkedin.com/in/zoecurry/"

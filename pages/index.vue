@@ -9,7 +9,7 @@
             align-tabs="center"
             bg-color="grey-darken-4"
             height="60"
-            slider-color="honeydew"
+            slider-color="salmon"
             grow
           >
             <v-tab class="text-capitalize" value="tab-1">
@@ -104,9 +104,9 @@
                   </div>
                 </v-card-text>
                 <v-card-text class="pt-0">
-                  <div class="bg-honeydew rounded">
+                  <div class="bg-salmon rounded">
                     <div class="pa-4">
-                      <div>Projects</div>
+                      <div class="text-black">Projects</div>
                       <v-chip
                         variant="flat"
                         color="grey-darken-4"
@@ -184,9 +184,9 @@
                   </div>
                 </v-card-text>
                 <v-card-text class="pt-0">
-                  <div class="bg-honeydew rounded">
+                  <div class="bg-salmon rounded">
                     <div class="pa-4">
-                      <div>Languages</div>
+                      <div class="text-black">Languages</div>
                       <v-chip
                         variant="flat"
                         color="grey-darken-4"
@@ -231,9 +231,9 @@
                   </div>
                 </v-card-text>
                 <v-card-text class="pt-0">
-                  <div class="bg-honeydew rounded">
+                  <div class="bg-salmon rounded">
                     <div class="pa-4">
-                      <div>Technologies</div>
+                      <div class="text-black">Technologies</div>
                       <v-chip
                         variant="flat"
                         color="grey-darken-4"
@@ -294,9 +294,9 @@
                   </div>
                 </v-card-text>
                 <v-card-text class="pt-0">
-                  <div class="bg-honeydew rounded">
+                  <div class="bg-salmon rounded">
                     <div class="pa-4">
-                      <div>Certifications</div>
+                      <div class="text-black">Certifications</div>
                       <v-chip
                         variant="flat"
                         color="grey-darken-4"
@@ -348,13 +348,13 @@
               <v-card variant="flat" class="bg-grey-darken-3" title="Awards">
                 <v-card-text>
                   <v-expansion-panels
-                    class="bg-honeydew"
+                    class="bg-salmon"
                     variant="accordion"
                     flat
                     multiple
                   >
-                    <v-expansion-panel class="bg-honeydew">
-                      <v-expansion-panel-title>
+                    <v-expansion-panel class="bg-salmon">
+                      <v-expansion-panel-title class="text-black">
                         <v-icon icon="mdi-security" />
                         <span class="pl-6 text-body-1">
                           4 Nations Secure Code Warrior Tournament
@@ -377,8 +377,8 @@
                       </v-expansion-panel-text>
                     </v-expansion-panel>
 
-                    <v-expansion-panel class="bg-honeydew">
-                      <v-expansion-panel-title>
+                    <v-expansion-panel class="bg-salmon">
+                      <v-expansion-panel-title class="text-black">
                         <v-icon icon="mdi-camera" />
                         <span class="pl-6 text-body-1">
                           Slim Hewitt Prize
@@ -396,8 +396,8 @@
                       </v-expansion-panel-text>
                     </v-expansion-panel>
 
-                    <v-expansion-panel class="bg-honeydew">
-                      <v-expansion-panel-title>
+                    <v-expansion-panel class="bg-salmon">
+                      <v-expansion-panel-title class="text-black">
                         <v-icon icon="mdi-camera-iris" />
                         <span class="pl-6 text-body-1">
                           Canon Student Development Programme
@@ -415,8 +415,8 @@
                       </v-expansion-panel-text>
                     </v-expansion-panel>
 
-                    <v-expansion-panel class="bg-honeydew">
-                      <v-expansion-panel-title>
+                    <v-expansion-panel class="bg-salmon">
+                      <v-expansion-panel-title class="text-black">
                         <v-icon icon="mdi-hand-heart" />
                         <span class="pl-6 text-body-1">
                           Future Plan Volunteer of The Year
@@ -434,8 +434,8 @@
                       </v-expansion-panel-text>
                     </v-expansion-panel>
 
-                    <v-expansion-panel class="bg-honeydew">
-                      <v-expansion-panel-title>
+                    <v-expansion-panel class="bg-salmon">
+                      <v-expansion-panel-title class="text-black">
                         <v-icon icon="mdi-trophy-variant" />
                         <span class="pl-6 text-body-1">
                           Gold, Silver & Bronze Employability Award
@@ -468,13 +468,13 @@
               <v-card variant="flat" class="bg-grey-darken-3" title="Education">
                 <v-card-text>
                   <v-expansion-panels
-                    class="bg-honeydew"
+                    class="bg-salmon"
                     variant="accordion"
                     flat
                     multiple
                   >
-                    <v-expansion-panel class="bg-honeydew">
-                      <v-expansion-panel-title>
+                    <v-expansion-panel class="bg-salmon">
+                      <v-expansion-panel-title class="text-black">
                         <v-icon icon="mdi-school" />
                         <span class="pl-6 text-body-1">
                           BSc (Hons) Digital and Technology Solutions
@@ -491,8 +491,8 @@
                       </v-expansion-panel-text>
                     </v-expansion-panel>
 
-                    <v-expansion-panel class="bg-honeydew">
-                      <v-expansion-panel-title>
+                    <v-expansion-panel class="bg-salmon">
+                      <v-expansion-panel-title class="text-black">
                         <v-icon icon="mdi-school" />
                         <span class="pl-6 text-body-1">
                           BA (Hons) Photojournalism and Documentary Photography
@@ -507,8 +507,8 @@
                       </v-expansion-panel-text>
                     </v-expansion-panel>
 
-                    <v-expansion-panel class="bg-honeydew">
-                      <v-expansion-panel-title>
+                    <v-expansion-panel class="bg-salmon">
+                      <v-expansion-panel-title class="text-black">
                         <v-icon icon="mdi-certificate" />
                         <span class="pl-6 text-body-1"> A Levels </span>
                       </v-expansion-panel-title>
@@ -524,8 +524,8 @@
                       </v-expansion-panel-text>
                     </v-expansion-panel>
 
-                    <v-expansion-panel class="bg-honeydew">
-                      <v-expansion-panel-title>
+                    <v-expansion-panel class="bg-salmon">
+                      <v-expansion-panel-title class="text-black">
                         <v-icon icon="mdi-certificate" />
                         <span class="pl-6 text-body-1"> GCSEs </span>
                       </v-expansion-panel-title>
