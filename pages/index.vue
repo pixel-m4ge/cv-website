@@ -9,6 +9,7 @@
             align-tabs="center"
             bg-color="grey-darken-4"
             height="60"
+            slider-color="honeydew"
             grow
           >
             <v-tab class="text-capitalize" value="tab-1">
@@ -62,11 +63,7 @@
           <v-row>
             <v-col sm="2" cols="0" class="d-none d-sm-block"></v-col>
             <v-col sm="8" cols="12">
-              <v-card
-                variant="flat"
-                class="bg-indigo-lighten-5"
-                title="Zoe Curry"
-              >
+              <v-card variant="flat" class="bg-grey-darken-3" title="Zoe Curry">
                 <template v-slot:subtitle>
                   <span class="text-body-1">Software Developer</span>
                 </template>
@@ -78,7 +75,7 @@
                       rel="noopener noreferrer"
                       aria-label="Go to my LinkedIn profile"
                     >
-                      <v-icon color="black" icon="mdi-linkedin"></v-icon>
+                      <v-icon color="white" icon="mdi-linkedin"></v-icon>
                     </a>
                   </span>
                   <span>
@@ -88,7 +85,7 @@
                       rel="noopener noreferrer"
                       aria-label="Go to my GitHub profile"
                     >
-                      <v-icon color="black" icon="mdi-github"></v-icon>
+                      <v-icon color="white" icon="mdi-github"></v-icon>
                     </a>
                   </span>
                 </v-card-text>
@@ -107,7 +104,7 @@
                   </div>
                 </v-card-text>
                 <v-card-text class="pt-0">
-                  <div class="bg-indigo-lighten-4 rounded">
+                  <div class="bg-honeydew rounded">
                     <div class="pa-4">
                       <div>Projects</div>
                       <v-chip
@@ -143,7 +140,7 @@
             <v-col sm="8" cols="12">
               <v-card
                 variant="flat"
-                class="bg-indigo-lighten-5"
+                class="bg-grey-darken-3"
                 title="Experience"
               >
                 <v-card-text>
@@ -174,6 +171,7 @@
                       <li>
                         Nominated as
                         <a
+                          class="text-white"
                           href="https://www.gov.wales/welsh-revenue-authority/zoe-curry"
                           target="_blank"
                           rel="noopener noreferrer"
@@ -186,7 +184,7 @@
                   </div>
                 </v-card-text>
                 <v-card-text class="pt-0">
-                  <div class="bg-indigo-lighten-4 rounded">
+                  <div class="bg-honeydew rounded">
                     <div class="pa-4">
                       <div>Languages</div>
                       <v-chip
@@ -233,7 +231,7 @@
                   </div>
                 </v-card-text>
                 <v-card-text class="pt-0">
-                  <div class="bg-indigo-lighten-4 rounded">
+                  <div class="bg-honeydew rounded">
                     <div class="pa-4">
                       <div>Technologies</div>
                       <v-chip
@@ -296,7 +294,7 @@
                   </div>
                 </v-card-text>
                 <v-card-text class="pt-0">
-                  <div class="bg-indigo-lighten-4 rounded">
+                  <div class="bg-honeydew rounded">
                     <div class="pa-4">
                       <div>Certifications</div>
                       <v-chip
@@ -347,10 +345,10 @@
           <v-row>
             <v-col sm="2" cols="0" class="d-none d-sm-block"></v-col>
             <v-col sm="8" cols="12">
-              <v-card variant="flat" class="bg-indigo-lighten-5" title="Awards">
+              <v-card variant="flat" class="bg-grey-darken-3" title="Awards">
                 <v-card-text>
                   <v-expansion-panels variant="accordion" flat multiple>
-                    <v-expansion-panel class="bg-indigo-lighten-4">
+                    <v-expansion-panel class="bg-honeydew">
                       <v-expansion-panel-title>
                         <v-icon icon="mdi-security" />
                         <span class="pl-6 text-body-1">
@@ -374,7 +372,7 @@
                       </v-expansion-panel-text>
                     </v-expansion-panel>
 
-                    <v-expansion-panel class="bg-indigo-lighten-4">
+                    <v-expansion-panel class="bg-honeydew">
                       <v-expansion-panel-title>
                         <v-icon icon="mdi-camera" />
                         <span class="pl-6 text-body-1">
@@ -393,7 +391,7 @@
                       </v-expansion-panel-text>
                     </v-expansion-panel>
 
-                    <v-expansion-panel class="bg-indigo-lighten-4">
+                    <v-expansion-panel class="bg-honeydew">
                       <v-expansion-panel-title>
                         <v-icon icon="mdi-camera-iris" />
                         <span class="pl-6 text-body-1">
@@ -412,7 +410,7 @@
                       </v-expansion-panel-text>
                     </v-expansion-panel>
 
-                    <v-expansion-panel class="bg-indigo-lighten-4">
+                    <v-expansion-panel class="bg-honeydew">
                       <v-expansion-panel-title>
                         <v-icon icon="mdi-hand-heart" />
                         <span class="pl-6 text-body-1">
@@ -431,7 +429,7 @@
                       </v-expansion-panel-text>
                     </v-expansion-panel>
 
-                    <v-expansion-panel class="bg-indigo-lighten-4">
+                    <v-expansion-panel class="bg-honeydew">
                       <v-expansion-panel-title>
                         <v-icon icon="mdi-trophy-variant" />
                         <span class="pl-6 text-body-1">
@@ -462,14 +460,10 @@
           <v-row>
             <v-col sm="2" cols="0" class="d-none d-sm-block"></v-col>
             <v-col sm="8" cols="12">
-              <v-card
-                variant="flat"
-                class="bg-indigo-lighten-5"
-                title="Education"
-              >
+              <v-card variant="flat" class="bg-grey-darken-3" title="Education">
                 <v-card-text>
                   <v-expansion-panels variant="accordion" flat multiple>
-                    <v-expansion-panel class="bg-indigo-lighten-4">
+                    <v-expansion-panel class="bg-honeydew">
                       <v-expansion-panel-title>
                         <v-icon icon="mdi-school" />
                         <span class="pl-6 text-body-1">
@@ -487,7 +481,7 @@
                       </v-expansion-panel-text>
                     </v-expansion-panel>
 
-                    <v-expansion-panel class="bg-indigo-lighten-4">
+                    <v-expansion-panel class="bg-honeydew">
                       <v-expansion-panel-title>
                         <v-icon icon="mdi-school" />
                         <span class="pl-6 text-body-1">
@@ -503,7 +497,7 @@
                       </v-expansion-panel-text>
                     </v-expansion-panel>
 
-                    <v-expansion-panel class="bg-indigo-lighten-4">
+                    <v-expansion-panel class="bg-honeydew">
                       <v-expansion-panel-title>
                         <v-icon icon="mdi-certificate" />
                         <span class="pl-6 text-body-1"> A Levels </span>
@@ -520,7 +514,7 @@
                       </v-expansion-panel-text>
                     </v-expansion-panel>
 
-                    <v-expansion-panel class="bg-indigo-lighten-4">
+                    <v-expansion-panel class="bg-honeydew">
                       <v-expansion-panel-title>
                         <v-icon icon="mdi-certificate" />
                         <span class="pl-6 text-body-1"> GCSEs </span>
@@ -557,3 +551,9 @@ export default {
   },
 };
 </script>
+
+<style>
+.v-card-subtitle {
+  opacity: 1 !important;
+}
+</style>

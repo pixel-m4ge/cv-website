@@ -2,7 +2,7 @@
   <v-footer class="pa-0">
     <v-row no-gutters>
       <v-col>
-        <div class="px-4 py-2 w-100 bg-indigo text-center">
+        <div class="px-4 py-2 w-100 bg-honeydew text-center">
           <span class="mx-4">
             <a
               href="https://www.linkedin.com/in/zoecurry/"
@@ -10,7 +10,7 @@
               rel="noopener noreferrer"
               aria-label="Go to my LinkedIn profile"
             >
-              <v-icon color="white" icon="mdi-linkedin"></v-icon>
+              <v-icon color="black" icon="mdi-linkedin"></v-icon>
             </a>
           </span>
           <span class="mx-4">
@@ -20,7 +20,7 @@
               rel="noopener noreferrer"
               aria-label="Go to my GitHub profile"
             >
-              <v-icon color="white" icon="mdi-github"></v-icon>
+              <v-icon color="black" icon="mdi-github"></v-icon>
             </a>
           </span>
         </div>
