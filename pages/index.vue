@@ -360,7 +360,7 @@
                           4 Nations Secure Code Warrior Tournament
                         </span>
                       </v-expansion-panel-title>
-                      <v-expansion-panel-text>
+                      <v-expansion-panel-text class="text-black">
                         <div class="font-weight-bold">QA</div>
                         <div class="pt-2">
                           I competed against other participants in a series of
@@ -384,7 +384,7 @@
                           Slim Hewitt Prize
                         </span>
                       </v-expansion-panel-title>
-                      <v-expansion-panel-text>
+                      <v-expansion-panel-text class="text-black">
                         <div class="font-weight-bold">
                           University of Gloucestershire
                         </div>
@@ -403,7 +403,7 @@
                           Canon Student Development Programme
                         </span>
                       </v-expansion-panel-title>
-                      <v-expansion-panel-text>
+                      <v-expansion-panel-text class="text-black">
                         <div class="font-weight-bold">
                           Visa Pour L'Image 2018
                         </div>
@@ -422,7 +422,7 @@
                           Future Plan Volunteer of The Year
                         </span>
                       </v-expansion-panel-title>
-                      <v-expansion-panel-text>
+                      <v-expansion-panel-text class="text-black">
                         <div class="font-weight-bold">
                           SU Student Awards 2018
                         </div>
@@ -441,7 +441,7 @@
                           Gold, Silver & Bronze Employability Award
                         </span>
                       </v-expansion-panel-title>
-                      <v-expansion-panel-text>
+                      <v-expansion-panel-text class="text-black">
                         <div class="font-weight-bold">
                           University of Gloucestershire
                         </div>
@@ -480,7 +480,7 @@
                           BSc (Hons) Digital and Technology Solutions
                         </span>
                       </v-expansion-panel-title>
-                      <v-expansion-panel-text>
+                      <v-expansion-panel-text class="text-black">
                         <div class="font-weight-bold">
                           University of South Wales
                         </div>
@@ -498,7 +498,7 @@
                           BA (Hons) Photojournalism and Documentary Photography
                         </span>
                       </v-expansion-panel-title>
-                      <v-expansion-panel-text>
+                      <v-expansion-panel-text class="text-black">
                         <div class="font-weight-bold">
                           University of Gloucestershire
                         </div>
@@ -512,7 +512,7 @@
                         <v-icon icon="mdi-certificate" />
                         <span class="pl-6 text-body-1"> A Levels </span>
                       </v-expansion-panel-title>
-                      <v-expansion-panel-text>
+                      <v-expansion-panel-text class="text-black">
                         <div class="font-weight-bold">
                           St David's Catholic College
                         </div>
@@ -529,7 +529,7 @@
                         <v-icon icon="mdi-certificate" />
                         <span class="pl-6 text-body-1"> GCSEs </span>
                       </v-expansion-panel-title>
-                      <v-expansion-panel-text>
+                      <v-expansion-panel-text class="text-black">
                         <div class="font-weight-bold">
                           Bryn Hafren Comprehensive School
                         </div>
