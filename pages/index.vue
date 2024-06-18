@@ -9,7 +9,7 @@
             align-tabs="center"
             bg-color="grey-darken-4"
             height="60"
-            slider-color="salmon"
+            slider-color="blueGray"
             grow
           >
             <v-tab class="text-capitalize" value="tab-1">
@@ -104,7 +104,7 @@
                   </div>
                 </v-card-text>
                 <v-card-text class="pt-0">
-                  <div class="bg-salmon rounded">
+                  <div class="bg-blueGray rounded">
                     <div class="pa-4">
                       <div class="text-black">Projects</div>
                       <v-chip
@@ -184,7 +184,7 @@
                   </div>
                 </v-card-text>
                 <v-card-text class="pt-0">
-                  <div class="bg-salmon rounded">
+                  <div class="bg-blueGray rounded">
                     <div class="pa-4">
                       <div class="text-black">Languages</div>
                       <v-chip
@@ -231,7 +231,7 @@
                   </div>
                 </v-card-text>
                 <v-card-text class="pt-0">
-                  <div class="bg-salmon rounded">
+                  <div class="bg-blueGray rounded">
                     <div class="pa-4">
                       <div class="text-black">Technologies</div>
                       <v-chip
@@ -294,7 +294,7 @@
                   </div>
                 </v-card-text>
                 <v-card-text class="pt-0">
-                  <div class="bg-salmon rounded">
+                  <div class="bg-blueGray rounded">
                     <div class="pa-4">
                       <div class="text-black">Certifications</div>
                       <v-chip
@@ -348,7 +348,7 @@
               <v-card variant="flat" class="bg-grey-darken-3" title="Awards">
                 <v-card-text>
                   <v-expansion-panels variant="accordion" flat multiple>
-                    <v-expansion-panel class="bg-salmon">
+                    <v-expansion-panel class="bg-blueGray">
                       <v-expansion-panel-title class="text-black">
                         <v-icon icon="mdi-security" />
                         <span class="pl-6 text-body-1">
@@ -372,7 +372,7 @@
                       </v-expansion-panel-text>
                     </v-expansion-panel>
 
-                    <v-expansion-panel class="bg-salmon">
+                    <v-expansion-panel class="bg-blueGray">
                       <v-expansion-panel-title class="text-black">
                         <v-icon icon="mdi-camera" />
                         <span class="pl-6 text-body-1">
@@ -391,7 +391,7 @@
                       </v-expansion-panel-text>
                     </v-expansion-panel>
 
-                    <v-expansion-panel class="bg-salmon">
+                    <v-expansion-panel class="bg-blueGray">
                       <v-expansion-panel-title class="text-black">
                         <v-icon icon="mdi-camera-iris" />
                         <span class="pl-6 text-body-1">
@@ -410,7 +410,7 @@
                       </v-expansion-panel-text>
                     </v-expansion-panel>
 
-                    <v-expansion-panel class="bg-salmon">
+                    <v-expansion-panel class="bg-blueGray">
                       <v-expansion-panel-title class="text-black">
                         <v-icon icon="mdi-hand-heart" />
                         <span class="pl-6 text-body-1">
@@ -429,7 +429,7 @@
                       </v-expansion-panel-text>
                     </v-expansion-panel>
 
-                    <v-expansion-panel class="bg-salmon">
+                    <v-expansion-panel class="bg-blueGray">
                       <v-expansion-panel-title class="text-black">
                         <v-icon icon="mdi-trophy-variant" />
                         <span class="pl-6 text-body-1">
@@ -463,7 +463,7 @@
               <v-card variant="flat" class="bg-grey-darken-3" title="Education">
                 <v-card-text>
                   <v-expansion-panels variant="accordion" flat multiple>
-                    <v-expansion-panel class="bg-salmon">
+                    <v-expansion-panel class="bg-blueGray">
                       <v-expansion-panel-title class="text-black">
                         <v-icon icon="mdi-school" />
                         <span class="pl-6 text-body-1">
@@ -481,7 +481,7 @@
                       </v-expansion-panel-text>
                     </v-expansion-panel>
 
-                    <v-expansion-panel class="bg-salmon">
+                    <v-expansion-panel class="bg-blueGray">
                       <v-expansion-panel-title class="text-black">
                         <v-icon icon="mdi-school" />
                         <span class="pl-6 text-body-1">
@@ -497,7 +497,7 @@
                       </v-expansion-panel-text>
                     </v-expansion-panel>
 
-                    <v-expansion-panel class="bg-salmon">
+                    <v-expansion-panel class="bg-blueGray">
                       <v-expansion-panel-title class="text-black">
                         <v-icon icon="mdi-certificate" />
                         <span class="pl-6 text-body-1"> A Levels </span>
@@ -514,7 +514,7 @@
                       </v-expansion-panel-text>
                     </v-expansion-panel>
 
-                    <v-expansion-panel class="bg-salmon">
+                    <v-expansion-panel class="bg-blueGray">
                       <v-expansion-panel-title class="text-black">
                         <v-icon icon="mdi-certificate" />
                         <span class="pl-6 text-body-1"> GCSEs </span>

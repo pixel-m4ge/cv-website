@@ -10,7 +10,7 @@ export default defineNuxtPlugin((app) => {
       themes: {
         dark: {
           colors: {
-            salmon: "#f78166",
+            blueGray: "#88A7B9",
           },
         },
       },
