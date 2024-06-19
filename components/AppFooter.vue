@@ -23,6 +23,16 @@
               <v-icon color="black" icon="mdi-github"></v-icon>
             </a>
           </span>
+          <span class="mx-4">
+            <a
+              href="mailto:zoe@pixelmage.dev"
+              target="_blank"
+              rel="noopener noreferrer"
+              aria-label="Email me"
+            >
+              <v-icon color="black" icon="mdi-email"></v-icon>
+            </a>
+          </span>
         </div>
         <div class="px-4 py-2 w-100 bg-grey-darken-4 text-center">
           &copy; Zoe Curry — {{ new Date().getFullYear() }}

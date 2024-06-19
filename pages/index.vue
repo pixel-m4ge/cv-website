@@ -78,7 +78,7 @@
                       <v-icon color="white" icon="mdi-linkedin"></v-icon>
                     </a>
                   </span>
-                  <span>
+                  <span class="mr-4">
                     <a
                       href="https://github.com/pixel-m4ge/"
                       target="_blank"
@@ -86,6 +86,16 @@
                       aria-label="Go to my GitHub profile"
                     >
                       <v-icon color="white" icon="mdi-github"></v-icon>
+                    </a>
+                  </span>
+                  <span>
+                    <a
+                      href="mailto:zoe@pixelmage.dev"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      aria-label="Email me"
+                    >
+                      <v-icon color="white" icon="mdi-email"></v-icon>
                     </a>
                   </span>
                 </v-card-text>
