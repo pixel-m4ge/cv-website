@@ -265,8 +265,24 @@
                         color="grey-darken-4"
                         label
                         class="mr-2 mt-2"
+                        append-icon="mdi-fruit-pineapple"
+                        >Pinia</v-chip
+                      >
+                      <v-chip
+                        variant="flat"
+                        color="grey-darken-4"
+                        label
+                        class="mr-2 mt-2"
                         append-icon="mdi-vuetify"
                         >Vuetify</v-chip
+                      >
+                      <v-chip
+                        variant="flat"
+                        color="grey-darken-4"
+                        label
+                        class="mr-2 mt-2"
+                        append-icon="mdi-tailwind"
+                        >Tailwind</v-chip
                       >
                       <v-chip
                         variant="flat"
