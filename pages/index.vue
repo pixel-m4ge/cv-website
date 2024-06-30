@@ -501,9 +501,7 @@
                           University of South Wales
                         </div>
                         <div>2019 - 2024</div>
-                        <div class="pt-2">
-                          Predicted to graduate with a First Class
-                        </div>
+                        <div class="pt-2">Graduated with a First Class</div>
                       </v-expansion-panel-text>
                     </v-expansion-panel>
 
