@@ -101,7 +101,7 @@
                 </v-card-text>
                 <v-card-text class="pt-0">
                   <div>
-                    I have 4+ years of full-stack development experience,
+                    I have 6+ years of full-stack development experience,
                     specialising in front-end web development. My dissertation
                     focused on web accessibility, underlining my dedication to
                     inclusive web design.
